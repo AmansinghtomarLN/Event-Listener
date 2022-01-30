@@ -1,4 +1,4 @@
-package com.spring.subscriber;
+package com.spring.listener;
 
 import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Component;
