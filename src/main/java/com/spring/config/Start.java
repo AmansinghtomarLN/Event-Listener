@@ -11,7 +11,8 @@ import com.spring.publisher.Netflix;
 public class Start {
 
 	public static void main(String[] args) {
-		ApplicationContext context = new AnnotationConfigApplicationContext(AppConfiguration.class);
+		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfiguration.class);
+		context.start(); 
 		Netflix netflix = context.getBean("netflix", Netflix.class); // First character must be small in
 																		// component name
 	//	ContextRefreshedListener refresh = context.getBean("contextRefreshedListener",ContextRefreshedListener.class);

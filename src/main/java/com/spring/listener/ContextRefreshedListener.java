@@ -9,7 +9,7 @@ public class ContextRefreshedListener implements ApplicationListener<ContextRefr
 
 	@Override
 	public void onApplicationEvent(ContextRefreshedEvent event) {
-		System.out.println("Context Initialized");
+		System.out.println("Aman : Listener - Context Initialized");
 		
 	}
 
